@@ -362,7 +362,7 @@ class _DatePickerModeToggleButtonState
                           child: Text(
                             widget.title,
                             overflow: TextOverflow.ellipsis,
-                            style: textTheme.labelLarge?.copyWith(
+                            style: textTheme.titleSmall?.copyWith(
                               color: controlColor,
                             ),
                           ),

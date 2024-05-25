@@ -641,7 +641,7 @@ class _PInputDateRangePickerDialog extends StatelessWidget {
         ? colorScheme.onPrimary
         : colorScheme.onSurface;
     final TextStyle? dateStyle = orientation == Orientation.landscape
-        ? textTheme.bodyLarge?.apply(color: dateColor)
+        ? textTheme.titleMedium?.apply(color: dateColor)
         : textTheme.headlineSmall?.apply(color: dateColor);
     final String dateText = _formatDateRange(
         context, selectedStartDate, selectedEndDate, currentDate);

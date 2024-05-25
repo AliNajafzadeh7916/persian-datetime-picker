@@ -328,7 +328,7 @@ class PDayPicker extends StatelessWidget {
               child: ExcludeSemantics(
                 child: Text(
                   displayedMonth.formatMonthYear(),
-                  style: themeData.textTheme.bodyLarge,
+                  style: themeData.textTheme.titleSmall,
                 ),
               ),
             ),

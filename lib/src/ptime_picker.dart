@@ -540,7 +540,7 @@ class _DayPeriodControl extends StatelessWidget {
         ? <MaterialState>{MaterialState.selected}
         : <MaterialState>{};
     final TextStyle textStyle = timePickerTheme.dayPeriodTextStyle ??
-        Theme.of(context).textTheme.bodyLarge!;
+        Theme.of(context).textTheme.titleMedium!;
     final TextStyle amStyle = textStyle.copyWith(
       color: MaterialStateProperty.resolveAs(textColor, amStates),
     );
